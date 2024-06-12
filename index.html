@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,6 +9,9 @@
     <link rel="stylesheet" crossorigin href="/ffmpeg-webcam-demo/assets/index-IC5IvSLA.css">
   </head>
   <body>
+    <script>
+      if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+    </script>
     <div id="root"></div>
   </body>
 </html>
