@@ -77,7 +77,6 @@ function Convert(props) {
       a.download = "react-webcam-stream-capture.mp4";
       a.click();
       window.URL.revokeObjectURL(url);
-      //   setRecordedChunks([]);
     }
   }, [recordedChunks]);
 
