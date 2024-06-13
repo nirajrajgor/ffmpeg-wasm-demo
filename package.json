@@ -1,8 +1,8 @@
 {
-  "name": "ffmpeg-webcam-demo",
+  "name": "ffmpeg-wasm-demo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nirajrajgor.github.io/ffmpeg-webcam-demo/",
+  "homepage": "https://nirajrajgor.github.io/ffmpeg-wasm-demo/",
   "type": "module",
   "scripts": {
     "dev": "vite",

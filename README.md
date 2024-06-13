@@ -1,4 +1,4 @@
-# ffmpeg-webcam-demo
+# ffmpeg-wasm-demo
 
 Capture video from webcam and convert to mp4 using ffmpeg.wasm on user&apos;s browser.
 
@@ -15,7 +15,7 @@ To run local dev server
 
 ## Demo
 
-[Live Demo](https://nirajrajgor.github.io/ffmpeg-webcam-demo/)
+[Live Demo](https://nirajrajgor.github.io/ffmpeg-wasm-demo/)
 
 ## Steps
 
@@ -30,4 +30,4 @@ Works best on Chrome.
 
 ## License
 
-[MIT](https://github.com/nirajrajgor/ffmpeg-webcam-demo/blob/main/licence.txt)
+[MIT](https://github.com/nirajrajgor/ffmpeg-wasm-demo/blob/main/licence.txt)
