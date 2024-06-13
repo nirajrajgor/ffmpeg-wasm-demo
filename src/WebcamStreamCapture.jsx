@@ -40,8 +40,8 @@ const WebcamStreamCapture = () => {
   return (
     <>
       <h1 className="text-2xl my-3 max-w-3xl mx-auto text-center">
-        Example to capture video from webcam and convert to mp4 using
-        ffmpeg.wasm on user&apos;s browser
+        Capture video from webcam and convert to mp4 using ffmpeg.wasm on
+        user&apos;s browser
       </h1>
       <section className="flex flex-col items-center justify-center">
         <h2 className="text-1xl uppercase underline mb-2">Webcam</h2>
@@ -68,7 +68,7 @@ const WebcamStreamCapture = () => {
           </button>
         </div>
       </section>
-      <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+      <hr className="w-48 h-1 mx-auto my-1 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
       <section className="flex flex-col items-center justify-center">
         <Convert recordedChunks={recordedChunks} />
       </section>
