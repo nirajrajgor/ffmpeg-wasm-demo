@@ -39,8 +39,12 @@ const WebcamStreamCapture = () => {
 
   return (
     <>
+      <h1 className="text-2xl my-3 max-w-3xl mx-auto text-center">
+        Example to capture video from webcam and convert to mp4 using
+        ffmpeg.wasm on user&apos;s browser
+      </h1>
       <section className="flex flex-col items-center justify-center">
-        <h2 className="text-2xl mb-2">Webcam</h2>
+        <h2 className="text-1xl uppercase underline mb-2">Webcam</h2>
         <Webcam
           audio={false}
           mirrored={true}
