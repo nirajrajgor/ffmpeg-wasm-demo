@@ -1,8 +1,33 @@
-# React + Vite
+# ffmpeg-webcam-demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Capture video from webcam and convert to mp4 using ffmpeg.wasm on user&apos;s browser.
 
-Currently, two official plugins are available:
+## Available Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a minimal exploration around ffmpeg.wasm using React + Vite.
+In the project directory, you can run:
+
+#### `npm install`
+
+To run local dev server
+
+#### `npm run dev`
+
+## Demo
+
+[Live Demo](https://nirajrajgor.github.io/ffmpeg-webcam-demo/)
+
+## Steps
+
+1. Allow camera permission.
+2. Click on Start capture button and Stop once done.
+3. Click on Convert to mp4 buton.
+4. Once conversion is complete, Play or Download the video.
+
+## Note
+
+Works best on Chrome.
+
+## License
+
+[MIT](https://github.com/nirajrajgor/ffmpeg-webcam-demo/blob/main/licence.txt)
